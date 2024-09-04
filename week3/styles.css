@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(200, 200, 200);
+}
+
+nav ul{
+    display: block;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background: rgb(69, 69, 69);
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 10px;
+    display: block;
+    float: left;
+    color: antiquewhite;
+
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .jumbotron{
+    background-color: rgb(198, 198, 198);
+    width: 800px;
+    height: 300px;
+    align-items: center;
+    margin: 50px;
+    color: rgb(69, 64, 64);
+    border: 1px solid rgb(134, 134, 134);
+    padding-left: 10px;
+  }
+
+  .card{
+    width: auto;
+    height: auto; 
+    margin: 50px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(201, 201, 201);
+    align-items: center;
+ }
+
+  .card-a{
+    width: 800px;
+    height: auto;
+    color: rgb(69, 64, 64);
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 300px;
+  }
+  .card-b{
+    width: 800px;
+    height: auto;
+    color: rgb(69, 64, 64);
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 300px;
+  }
+  .card-c{
+    width: 800px;
+    height: auto;
+    color: rgb(69, 64, 64);
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 300px;
+  }
+  .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(69, 69, 69);
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+ 
